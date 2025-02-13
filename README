@@ -13,7 +13,7 @@ Installation instructions
 
 (package-vc-install
  '(MemoryPoolSystem-info :url "https://github.com/jeremy-bryant/MemoryPoolSystem-info"
-		   :branch "master"
+		   :branch "main"
 		   :rev :newest
 		   :doc "./MemoryPoolSystem.texi"))
 
@@ -21,7 +21,7 @@ or
 
 (use-package MemoryPoolSystem-info :ensure nil
     :vc (MemoryPoolSystem-info :url "https://github.com/jeremy-bryant/MemoryPoolSystem-info"
-           :branch "master"
+           :branch "main"
            :rev :newest
            :doc "./MemoryPoolSystem.texi"))
 
