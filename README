@@ -20,7 +20,7 @@ Installation instructions
 or
 
 (use-package MemoryPoolSystem-info :ensure nil
-    :vc (c-intro-and-ref :url "https://github.com/jeremy-bryant/MemoryPoolSystem-info"
+    :vc (MemoryPoolSystem-info :url "https://github.com/jeremy-bryant/MemoryPoolSystem-info"
            :branch "master"
            :rev :newest
            :doc "./MemoryPoolSystem.texi"))
